@@ -1,0 +1,58 @@
+.listItems {
+    border: lightgray 1px solid;
+
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.listItem {
+    padding: 10px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border-bottom: lightgray 1px solid;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.doneItem {
+    background-color: rgb(69, 221, 22);
+
+}
+
+
+
+.listItem:last-child {
+    border-bottom: none;
+}
+
+.taskText {
+width: 80%;
+}
+
+
+
+p {
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+p:hover {
+    background-color: blueviolet;
+}
+
+.buttons {
+    display: flex;
+    width: 20%;
+    justify-content: center;   
+}
+
+.inputItem {
+    width: 80%;
+    outline: none;
+    }
+
+

@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  border: lightgray 1px solid;
+  height: max-content;
+  max-width: 600px;
+  border-radius: 5px;
+  background-color: rgb(247, 242, 242);
+  margin: 40px auto;
+  padding: 15px;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+
+
+#to-do-form input {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: lightgray 1px solid;
+  width: 87.5%;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+#to-do-form button {
+  outline: none;
+  cursor: pointer;
+  background-color: blue;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  margin-left: 487px;
+}
+
+.title-task {
+  margin: 0 20px;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
